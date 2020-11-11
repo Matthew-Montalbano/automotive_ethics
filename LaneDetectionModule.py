@@ -23,6 +23,7 @@ def getLaneCurve(img):
     return None
 
 # if __name__ == " __main__":
+## Copy the absolute path of the file (right click on the video file and copy and paste absolute path into the parameter of VideoCapture method below)
 cap = cv2.VideoCapture('/Users/maximuscheng/PycharmProjects/AutomotiveEthics/Resources/testVid.mp4')
 # initial values to warp the view
 initialTrackBarVals = [102,80,20,214]
